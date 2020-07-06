@@ -1,11 +1,12 @@
 body{
+    background-color: black;
     margin: 0%;
-    width: 100%;
+    max-width: 100%;
 }
 
 main{
     margin: 0%;
-    padding 0%;
+    padding: 0%;
     position: relative;
     width: 100%;
     height: 45em;
@@ -39,7 +40,7 @@ main .Top-bar a{
     float: right;
     text-decoration: none;
     height: 60%;
-    width: 4%;    
+    width: 4.5%;    
     border: 0.25em solid  red;
     border-radius: 10%;
 }
@@ -47,7 +48,7 @@ main .Top-bar a{
 main .Top-bar a span{
     font-size: 100%;
     color: white;
-    padding: 8% 0%;
+    padding: 8% 8%;
     display: inline-block;
     height: 100%;
     width: 75%;
@@ -100,5 +101,158 @@ main .Get-Started .Email-Form button{
 
 main .Get-Started .third-para{
     font-size: large;
+}
+
+.Tv{
+    margin: 0 20%;
+    width: 60%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    margin-bottom: 2%;
+}
+
+.Tv .Tv-Content{
+    margin: 10% 0;
+    float: left;
+    width: 48%;
+}
+
+.Tv h1{
+    color: white;
+    font-size: 250%;
+}
+
+.Tv p{
+    white-space: pre-line;
+    color: white;
+    font-size: 150%;
+}
+
+.Tv img{
+    margin-top: 1%;
+    margin-left: 5%;
+    width:47%;
+    height: 100%;
+}
+
+.Download {
+    margin: 0 15%;
+    width: 70%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    margin-bottom: 2%;
+}
+
+.Download-animation{
+    display: inline-block;
+    margin: 0;
+    padding: 0%;
+    position: relative;
+    width: 43%;
+    margin-left:2%;    
+}
+
+.Download-animation img{
+    width: 90%;
+    z-index: -1;
+}
+
+.Download-info{
+    background: black;
+    position: absolute;
+    top: 70%;
+    margin: 0 15%;
+    padding: 1.5% 1.5%;
+    width: 60%;
+    height: 25%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    border: 0.15em solid slategray;
+    border-radius: 4%;
+}
+
+.Video-Thumbnail{
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+}
+
+.Video-info{
+    display: inline-block;
+    width: 55%;
+    color: white;
+}
+
+.Video-info h3{
+    font-size: 100%;
+    margin-bottom: 0%;
+    line-height: 210%;
+}
+
+.Video-info p{
+    font-size: 90%;
+    color: blue;
+    margin-top: 0%;
+}
+
+.Download-Gif{
+    float: right;
+    width: 20%;
+}
+
+.Download-Gif img{
+    margin-top: 30%;
+    width: 80%;
+    height: 80%;
+}
+
+.Download-para{
+    margin-top: 7%;
+    float: right;
+    width: 45%;  
+    color: white;  
+    margin-right: 5%;
+}
+
+.Download-para h2{
+    font-size: 270%;
+    white-space: pre-line;
+}
+
+.Download-para p{
+    width: 95%;
+    white-space: pre-line;
+    font-size: 150%;
+}
+
+.Watch-Everywhere{
+    margin: 5% 20%;
+    width: 60%;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.Watch-Info{
+    margin-top: 10%;
+    white-space: pre-line;
+    float: left;
+    width: 49%;
+    margin-right: 5%;
+    color: white;
+    margin-right: 5%;
+}
+
+.Watch-Info h2{
+    margin: 0 0;
+    font-size: 300%;
+}
+
+.Watch-Info p{
+    font-size: 150%;
+}
+
+.Watch-Everywhere img{
+    display: inline-block;
+    width: 50%;
 }
 
