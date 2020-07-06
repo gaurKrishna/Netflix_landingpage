@@ -4,6 +4,12 @@ body{
     max-width: 100%;
 }
 
+hr{
+    color: darkslategray;
+    border: 0.20em solid #303030;
+    margin: 0 0;
+}
+
 main{
     margin: 0%;
     padding: 0%;
@@ -128,19 +134,36 @@ main .Get-Started .third-para{
     font-size: 150%;
 }
 
-.Tv img{
+.Tv .Tv-video{
+    position: relative;
+    display: inline-block;
     margin-top: 1%;
     margin-left: 5%;
     width:47%;
     height: 100%;
 }
 
+.Tv-video img{
+    width: 100%;
+    height: 100%;
+}
+
+.Tv-video video{
+    z-index: -1;
+    position: absolute;
+    top: 20%;
+    right: 14%;
+    width: 73%;
+}
+
+
+
 .Download {
-    margin: 0 15%;
+    margin: 1% 15%;
     width: 70%;
     box-sizing: border-box;
     white-space: nowrap;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 .Download-animation{
@@ -251,8 +274,155 @@ main .Get-Started .third-para{
     font-size: 150%;
 }
 
-.Watch-Everywhere img{
+.Watch-Everywhere .Pile-video{
+    position: relative;
     display: inline-block;
     width: 50%;
 }
 
+.Pile-video img{
+    width: 100%;
+    height: 100%;
+}
+
+.Pile-video video{
+    position: absolute;
+    top: 11%;
+    left: 17%;
+    width: 65%;
+    z-index: -1;
+}
+
+.FAQ-Section{
+    width: 50%;
+    color: white;
+    margin: 5% 25%;
+    /* margin-left: ; */
+    white-space: nowrap;
+}
+
+.FAQ-Section h1{
+    text-align: center;
+    font-size: 330%;
+}
+
+.Question{
+    width: 100%;
+    display: block;
+}
+
+
+.Shown{
+    background: #303030;
+    display: block;
+    width: 100%;
+    height: 4em;
+    box-sizing: border-box;
+    white-space: nowrap;
+    margin-bottom: 0.23%;
+}
+
+.Shown p{
+    margin: 2% 2%;
+    float: left;
+    width: 89%;
+    height: 96%;
+    font-size: 180%;
+}
+
+.Shown button{
+    width: 7%;
+    height: 100%;
+    background: #303030;
+    border: 0;    
+}
+
+.Shown i{
+    color: white;
+    font-size: 3em;
+}
+
+
+
+.FAQ-Section p{
+    white-space: pre-line;
+}
+
+.Hidden{
+    background: #303030;
+}
+
+.Hidden p{
+    margin: 0% 3%;
+    font-size: 170%;
+    padding-bottom: 3%;
+}
+
+.FAQ-Section form{
+    margin: 7% 0;
+    width: 100%;
+    height: 4.5em;
+    margin-bottom: 2%;
+}
+
+.FAQ-Section .Email-Form input{
+    padding: 0 0;
+    border: 0;
+    float: left;
+    height: 99%;
+    width: 70%;
+}
+
+.FAQ-Section .Email-Form button{
+    padding: 0 0;
+    border: 0;
+    color: white;
+    background: red;
+    height: 100%;
+    width: 30%;
+    font-size: 150%;
+    border: 0;
+}
+
+.FAQ-Section .third-para{
+    text-align: center;
+    font-size: large;
+}
+
+footer{
+    margin: 3% 23%;
+    width: 54%;
+}
+
+footer a{
+    font-size: 100%;
+    text-decoration: none;
+    color: #757575;
+}
+
+.footer-lists{
+    margin-top: 1.5%;
+    width: 110%;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.list{
+    display: inline-block;
+    width: 20%;
+    margin-right: 3%; 
+}
+
+.list ul{
+    padding: 0;
+}
+
+.list li{
+    font-size: 85%;
+    line-height: 275%;
+    text-align: left;
+}
+
+footer .Netflix-India{
+    font-size: 85%;
+}
